@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--******-->
+	<!--Etiquetas para un sitio RESPONSIVE-->
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width"><!--Es el area visible de un navegador. El contenido del html tendra un ancho igual al ancho del dispositivo-->
+	<!--******-->
+	<title>Trabajo Parctico 01 - Final</title>	
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<!--Aca va el logo, home y contact-->
+		<img src="images/header-logo.png" alt="logo">
+		<!--Aca va la barra de navegacion con los links para el home y contact-->
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">HOME</a>
+				</li>
+				<li>
+					<a href="contact.html">CONTACT</a>
+				</li>
+			</ul>
+		</nav>
+		<!--Tecnica del div fantasma para limpiar el flotamiento -->
+		<div class="cleaner"></div>
+	</header>
+	<section class="contenedor-inicial">
+		<!--Se hizo el contenedor wrapper para que la imagen ocupe todo el ancho de la pantalla-->
+		<article class="wrapper">
+			<!--Aca va el texto "Regular Updates" y el texto (la imagen va de background)-->
+			<section class="regular-updates">
+				<h1 class="main-title">Regular Updates</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quae sapiente</p>
+			</section>
+			<!--Aca va la barra de busqueda "Enter your domain name and hit enter"-->
+			<form class="buscador">
+				<input type="search" placeholder="Enter your domain name and hit enter"></input>
+				<!--<input type="submit" value="SEARCH"></input>-->
+				<button type="submit">
+					<i class="fa fa-search"></i>
+					SEARCH
+				</button>
+			</form>
+			<!--Aca van los 4 circulos horizontales-->
+			<section class="servicios-destacados">
+				<!--Aca va el circulo nro 1 horizontal-->
+				<article>
+					<img src="images/wid1.png" alt="speed servers">
+					<h2>SPEED SERVERS</h2>
+					<p>Mauris vehicula felis vulputate velit<br>semper, nec molllis nisi aliquam</p>		
+				</article>
+				<!--Aca va el circulo nro 2 horizontal-->
+				<article>
+					<img src="images/wid2.png" alt="hostro services">
+					<h2>HOSTRO SERVICES</h2>
+					<p>Mauris vehicula felis vulputate velit<br>semper, nec molllis nisi aliquam</p>					
+				</article>
+				<!--Aca va el circulo nro 3 horizontal-->
+				<article>
+					<img src="images/wid3.png" alt="live support">
+					<h2>LIVE SUPPORT</h2>
+					<p>Mauris vehicula felis vulputate velit<br>semper, nec molllis nisi aliquam</p>					
+				</article>
+				<!--Aca va el circulo nro 4 horizontal-->
+				<article>
+					<img src="images/wid4.png" alt="get domain name">
+					<h2>GET DOMAIN NAME</h2>
+					<p>Mauris vehicula felis vulputate velit<br>semper, nec molllis nisi aliquam</p>					
+				</article>
+			</section>
+			<!--Tecnica del div fantasma para limpiar el flotamiento -->
+			<div class="cleaner"></div>
+			<!--Aca va el texto "HOSTRO SERVICES"-->
+			<h2 class="subtitle">HOSTRO SERVICES</h2>
+			<p>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</p>
+			<!--Aca van los 3 circulos verticales-->
+			<!--Son las caracteristicas izquierdas-->
+			<section class="caracteristicas caract-izq">
+				<!--Aca va el circulo nro 1 vertical-->
+				<article>
+					<img src="images/ser1.png" alt="retina ready">
+					<h3>RETINA READY</h3>
+					<p>Cras tempus orci masssa, id hendrerit mi egestas vitae class aptent taciti.</p>					
+				</article>
+				<!--Aca va el circulo nro 2 vertical-->
+				<article>
+					<img src="images/ser2.png" alt="easy customize">
+					<h3>EASY CUSTOMIZE</h3>
+					<p>Cras tempus orci masssa, id hendrerit mi egestas vitae class aptent taciti.</p>					
+				</article>
+				<!--Aca va el circulo nro 3 vertical-->
+				<article>
+					<img src="images/ser3.png" alt="pixel perfect">
+					<h3>PIXEL PERFECT</h3>
+					<p>Cras tempus orci masssa, id hendrerit mi egestas vitae class aptent taciti.</p>					
+				</article>
+			</section>
+			<!--Aca va la imagen del smartphone-->
+			<!--El figure sirve para contener solo imagenes y puede contener solo 1 imagen-->
+			<figure class="imagen-mitad">
+				<img src="images/iphone2.png" alt="iphone2">
+			</figure>
+			<!--Son las caracteristicas derechas-->
+			<section class="caracteristicas caract-der">
+				<!--Aca va el circulo nro 4 vertical-->
+				<article>
+					<img src="images/ser4.png" alt="unlimited colors">
+					<h3>UNLIMITED COLORS</h3>
+					<p>Cras tempus orci masssa, id hendrerit mi<br>egestas vitae class aptent taciti.</p>					
+				</article>
+				<!--Aca va el circulo nro 5 vertical-->
+				<article>
+					<img src="images/ser5.png" alt="features">
+					<h3>FEATURES</h3>
+					<p>Cras tempus orci masssa, id hendrerit mi<br>egestas vitae class aptent taciti.</p>
+				</article>
+				<!--Aca va el circulo nro 6 vertical-->
+				<article>
+					<img src="images/ser6.png" alt="support today">
+					<h3>SUPPORT TODAY</h3>
+					<p>Cras tempus orci masssa, id hendrerit mi<br>egestas vitae class aptent taciti.</p>
+				</article>				
+			</section>
+			<!--Tecnica del div fantasma para limpiar el flotamiento -->
+			<div class="cleaner"></div>
+		</article>
+	</section>
+	<!--Aca van el texto "Pricing Tables" (la imagen va de background)-->
+	<section class="contenedor-secundario">
+		<!--Tecnica del div fantasma para limpiar el flotamiento -->
+		<div class="cleaner"></div>
+		<article class="wrapper">
+			<!--Aca va el texto "Pricing Tables"-->
+			<h2 class="pricing-title">Pricing Tables</h2>
+			<p>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</p>
+			<!--Aca van las 4 cajas con los precios-->
+			<section class="pricing-boxes">
+				<!--Aca va la caja nro 1-->			
+				<article class="box-price">
+					<table>
+						    <!-- fila 1 -->
+						    <tr>
+						        <td colspan="2">
+						            <h4>SMALL PACKAGE</h4>
+						        </td>
+						    </tr>
+						    <!-- fila 2 -->
+						    <tr>
+						        <td colspan="2">
+						            <h3>
+						                <sup>$</sup><i>15</i><sup>.9</sup>
+						            </h3>
+						            <b>/month</b>
+						        </td>
+						    </tr>
+						    <!-- fila 3 -->
+						    <tr>
+						        <td width="80%"><span>Hard drive, GB</span></td>
+						        <td width="20%"><span class="blue-txt">2</span></td>
+						    </tr>
+						    <!-- fila 4 -->
+						    <tr>
+						        <td><span>Transfer, GB</span></td>
+						        <td><span class="blue-txt">1</span></td>
+						    </tr>
+						    <!-- fila 5 -->
+						    <tr>
+						        <td><span>Data bases</span></td>
+						        <td><span class="blue-txt">1</span></td>
+						    </tr>
+						    <!-- fila 6 -->
+						    <tr>
+						        <td><span>Dashboards</span></td>
+						        <td><span class="blue-txt">1</span></td>
+						    </tr>
+						    <!-- fila 7 -->
+						    <tr>
+						        <td colspan="2">
+						            <!--<a href="#">SELECT PLAN</a>-->
+						            <button type="submit" class="button-select-plan">
+										SELECT PLAN
+									</button>
+						        </td>
+						    </tr>
+						</table>										
+				</article>
+				<!--Aca va la caja nro 2-->	
+				<article class="box-price">
+					<table>
+						    <!-- fila 1 -->
+						    <tr>
+						        <td colspan="2">
+						            <h4>NORMAL PACKAGE</h4>
+						        </td>
+						    </tr>
+						    <!-- fila 2 -->
+						    <tr>
+						        <td colspan="2">
+						            <h3>
+						                <sup>$</sup><i>45</i><sup>.9</sup>
+						            </h3>
+						            <b>/month</b>
+						        </td>
+						    </tr>
+						    <!-- fila 3 -->
+						    <tr>
+						        <td width="80%"><span>Hard drive, GB</span></td>
+						        <td width="20%"><span class="yellow-txt">5</span></td>
+						    </tr>
+						    <!-- fila 4 -->
+						    <tr>
+						        <td><span>Transfer, GB</span></td>
+						        <td><span class="yellow-txt">2</span></td>
+						    </tr>
+						    <!-- fila 5 -->
+						    <tr>
+						        <td><span>Data bases</span></td>
+						        <td><span class="yellow-txt">2</span></td>
+						    </tr>
+						    <!-- fila 6 -->
+						    <tr>
+						        <td><span>Dashboards</span></td>
+						        <td><span class="yellow-txt">2</span></td>
+						    </tr>
+						    <!-- fila 7 -->
+						    <tr>
+						        <td colspan="2">
+						            <!--<a href="#">SELECT PLAN</a>-->
+						            <button type="submit" class="button-select-plan">
+										SELECT PLAN
+									</button>									
+						        </td>
+						    </tr>
+						</table>										
+				</article>
+				<!--Aca va la caja nro 3-->	
+				<article class="box-price">
+					<table>
+						    <!-- fila 1 -->
+						    <tr>
+						        <td colspan="2">
+						            <h4>BIG PACKAGE</h4>
+						        </td>
+						    </tr>
+						    <!-- fila 2 -->
+						    <tr>
+						        <td colspan="2">
+						            <h3>
+						                <sup>$</sup><i>95</i><sup>.9</sup>
+						            </h3>
+						            <b>/month</b>
+						        </td>
+						    </tr>
+						    <!-- fila 3 -->
+						    <tr>
+						        <td width="80%"><span>Hard drive, GB</span></td>
+						        <td width="20%"><span class="orange-txt">12</span></td>
+						    </tr>
+						    <!-- fila 4 -->
+						    <tr>
+						        <td><span>Transfer, GB</span></td>
+						        <td><span class="orange-txt">5</span></td>
+						    </tr>
+						    <!-- fila 5 -->
+						    <tr>
+						        <td><span>Data bases</span></td>
+						        <td><span class="orange-txt">5</span></td>
+						    </tr>
+						    <!-- fila 6 -->
+						    <tr>
+						        <td><span>Dashboards</span></td>
+						        <td><span class="orange-txt">5</span></td>
+						    </tr>
+						    <!-- fila 7 -->
+						    <tr>
+						        <td colspan="2">
+						            <!--<a href="#">SELECT PLAN</a>-->
+						            <button type="submit" class="button-select-plan">
+										SELECT PLAN
+									</button>
+						        </td>
+						    </tr>
+						</table>										
+				</article>
+				<!--Aca va la caja nro 4-->	
+				<article class="box-price last">
+					<table>
+						    <!-- fila 1 -->
+						    <tr>
+						        <td colspan="2">
+						            <h4>BEST PACKAGE</h4>
+						        </td>
+						    </tr>
+						    <!-- fila 2 -->
+						    <tr>
+						        <td colspan="2">
+						            <h3>
+						                <sup>$</sup><i>115</i><sup>.9</sup>
+						            </h3>
+						            <b>/month</b>
+						        </td>
+						    </tr>
+						    <!-- fila 3 -->
+						    <tr>
+						        <td width="80%"><span>Hard drive, GB</span></td>
+						        <td width="20%"><span class="red-txt">20</span></td>
+						    </tr>
+						    <!-- fila 4 -->
+						    <tr>
+						        <td><span>Transfer, GB</span></td>
+						        <td><span class="red-txt">10</span></td>
+						    </tr>
+						    <!-- fila 5 -->
+						    <tr>
+						        <td><span>Data bases</span></td>
+						        <td><span class="red-txt">10</span></td>
+						    </tr>
+						    <!-- fila 6 -->
+						    <tr>
+						        <td><span>Dashboards</span></td>
+						        <td><span class="red-txt">10</span></td>
+						    </tr>
+						    <!-- fila 7 -->
+						    <tr>
+						        <td colspan="2">						            
+						            <!--<a href="#">SELECT PLAN</a>-->
+						            <button type="submit" class="button-select-plan">
+										SELECT PLAN
+									</button>
+						        </td>
+						    </tr>
+						</table>										
+				</article>
+				<!--Tecnica del div fantasma para limpiar el flotamiento -->
+				<div class="cleaner"></div>	
+			</section>
+		</article>
+	</section>
+	<!--Aca va el pie de pagina con un texto, home y contact-->
+	<footer class="pie-de-pagina">
+		<!--Aca va el texto "Hosting use 500,000 happy customers. Want to see services?"-->
+		<article class="hosting">
+			<p>Hosting use <span>500,000</span> happy customers. Want to see services?</p>
+		</article>
+		<!--Aca va el texto con el copyright-->
+		<article class="copyright">
+			<p><small>© 2015 Coderland. All right reserved.</small></p>
+			<!--Aca va la barra de navegacion con los links para el home y contact-->
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html"><small>HOME</small></a>
+					</li>
+					<li>
+						<a href="contact.html"><small>CONTACT</small></a>
+					</li>
+				</ul>
+			</nav>	
+		</article>
+	</footer>
+</body>
+</html>

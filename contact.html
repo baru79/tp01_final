@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--******-->
+	<!--Etiquetas para un sitio RESPONSIVE-->
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width"><!--Es el area visible de un navegador. El contenido del html tendra un ancho igual al ancho del dispositivo-->
+	<!--******-->
+	<title>Trabajo Parctico Nro. 3</title>	
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<!--Aca va el logo, home y contact-->
+		<img src="images/header-logo.png" alt="logo">
+		<!--Aca va la barra de navegacion con los links para el home y contact-->
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">HOME</a>
+				</li>
+				<li>
+					<a href="contact.html">CONTACT</a>
+				</li>
+			</ul>
+		</nav>
+		<!--Tecnica del div fantasma para limpiar el flotamiento -->
+		<div class="cleaner"></div>
+	</header>
+	<section class="contenedor-inicial-contacto">
+		<!--Se hizo el contenedor wrapper para que la imagen ocupe todo el ancho de la pantalla-->
+		<article class="wrapper">
+			<!--Aca va el texto "Regular Updates" y el texto (la imagen va de background)-->
+			<section class="regular-updates">
+				<h1 class="main-title">Regular Updates</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quae sapiente</p>
+			</section>			
+		</article>
+	</section>
+	<section>
+		<!--Aca va el texto "Get in touch"-->
+		<h2 class="subtitle">Get in touch</h2>
+		<p>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</p>
+	</section>
+	<form class="contacto-formulario">
+		<article class="contacto-caja1">
+			<input type="text" placeholder="Name"></input>
+			<input type="text" placeholder="Subname"></input>
+			<input type="text" placeholder="Subject"></input>
+		</article>
+		<article class="contacto-caja2">
+			<textarea placeholder="Message"></textarea>
+		</article>
+		<!--Tecnica del div fantasma para limpiar el flotamiento -->
+		<div class="cleaner"></div>
+		<button type="submit" class="boton">
+		SUBMIT
+		</button>
+	</form>	
+	<!--Aca va el pie de pagina con un texto, home y contact-->
+	<footer class="pie-de-pagina">
+		<!--Aca va el texto "Hosting use 500,000 happy customers. Want to see services?"-->
+		<article class="hosting">
+			<p>Hosting use <span>500,000</span> happy customers. Want to see services?</p>
+		</article>
+		<!--Aca va el texto con el copyright-->
+		<article class="copyright">
+			<p><small>© 2015 Coderland. All right reserved.</small></p>			
+			<!--Aca va la barra de navegacion con los links para el home y contact-->
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html"><small>HOME</small></a>
+					</li>
+					<li>
+						<a href="contact.html"><small>CONTACT</small></a>
+					</li>
+				</ul>
+			</nav>	
+		</article>		
+	</footer>			
+</body>
+</html>
